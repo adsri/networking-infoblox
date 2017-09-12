@@ -21,8 +21,8 @@ from oslo_utils import uuidutils
 from neutron.ipam import exceptions as ipam_exc
 from neutron.ipam import utils as ipam_utils
 
-from infoblox_client import objects as ib_objects
 from infoblox_client import exceptions as ib_exc
+from infoblox_client import objects as ib_objects
 
 from networking_infoblox._i18n import _LI
 from networking_infoblox.neutron.common import constants as const

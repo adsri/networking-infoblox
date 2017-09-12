@@ -18,8 +18,8 @@ import sys
 
 from oslo_config import cfg
 
-from neutron.conf.agent import common as agent_conf
 from neutron.common import config as common_config
+from neutron.conf.agent import common as agent_conf
 from neutron_lib import context
 
 from networking_infoblox.neutron.common import config
