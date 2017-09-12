@@ -21,7 +21,7 @@ import sys
 from oslo_config import cfg
 from oslo_service import service
 
-from neutron.agent.common import config as agent_conf
+from neutron.conf.agent import common as agent_conf
 from neutron.common import config as common_config
 
 from networking_infoblox.neutron.common import config
