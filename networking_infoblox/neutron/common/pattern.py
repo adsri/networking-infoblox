@@ -135,7 +135,8 @@ class PatternBuilder(object):
         except (KeyError, IndexError) as e:
             raise ibc_exc.InfobloxConfigException(
                 msg="Invalid pattern %s" % e)
-        return fqdn
+        # Returning fqdn in lowercase letters
+        return fqdn.lower()
 
     @staticmethod
     def _validate_pattern_struct(pattern, pattern_dict):
