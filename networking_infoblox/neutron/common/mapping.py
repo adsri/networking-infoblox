@@ -411,8 +411,6 @@ class GridMappingManager(object):
             if not dhcp_member:
                 LOG.warning("Member not found with dhcp_ip: %r", member_ip)
                 continue
-                # raise exc.InfobloxCannotFindMember(
-                #     member=member_ip)
             dhcp_members.append(dhcp_member)
         return dhcp_members
 
