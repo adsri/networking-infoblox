@@ -3,4 +3,4 @@
 # process, which may cause wedges in the gate later.
 
 Babel>=1.3
--e git://github.com/infobloxopen/infoblox-client.git#egg=infoblox-client
+infoblox-client==0.4.18
